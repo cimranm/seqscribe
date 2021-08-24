@@ -5,8 +5,19 @@ Translate nucleotide and amino acid sequences using unix pipeline tools
 Uses `sed` and `tr` to translate DNA codons to amino acid single-letter sequences. 
 
 
+### Examples 
+
+```
+$ echo 'gttttttttttattgttgacggcagccccctcntag' | seqscribe 
+VFFLLLTAAPS*
+$
+
+```
+
 ### TODO
 
+- turn into executable
+- add installer
 - Support options for different codon tables (command line flag to use in-built one; can add custom ones) 
 - Support IUPAC ambiguity codes to allow for prot determination of partially unknown seqs 
 - RNA to DNA, and vice versa 

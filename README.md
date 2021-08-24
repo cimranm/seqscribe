@@ -15,6 +15,8 @@ $
 
 ### TODO
 
+- Handle 'frameshifts' -- user can specify offset for codon reads (remainder is untranslated / deleted) 
+- Handle whitespace in sequence 
 - turn into executable
 - add installer
 - Support options for different codon tables (command line flag to use in-built one; can add custom ones) 

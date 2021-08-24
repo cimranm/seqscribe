@@ -1,5 +1,4 @@
 # seqscribe
-Translate nucleotide and amino acid sequences using unix pipeline tools 
 
 
 Uses `sed` and `tr` to translate DNA codons to amino acid single-letter sequences. 

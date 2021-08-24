@@ -15,6 +15,20 @@ $
 
 ### TODO
 
+- Add counter for each AA, can use CLI flag to output stats
+    - or reserve this functionality for diff program 
+    - use case: 
+    - ```
+       $ echo 'ACGACGACG' | seqscribe --amino | amino --iso 
+       8.59
+       $ echo 'ACGACGACG' | seqscribe --amino | amino --count
+       A: 1
+       C: 2
+       E: 5
+       $
+       ```
+                  
+    
 - Handle 'frameshifts' -- user can specify offset for codon reads (remainder is untranslated / deleted) 
 - Handle whitespace in sequence 
 - turn into executable
